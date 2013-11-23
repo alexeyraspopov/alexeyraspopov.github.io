@@ -40,15 +40,6 @@ img{
 	max-width: 100%;
 }
 
-pre{ /* TODO: use div for code */
-	white-space: normal;
-}
-
-code{
-	white-space: pre;
-	display: block;
-}
-
 time{
 	color: #b3b3b1;
 }
