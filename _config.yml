@@ -1,1 +1,3 @@
 exclude: ['grunfile.js', 'package.json', 'readme.md']
+markdown: rdiscount
+pygments: true
