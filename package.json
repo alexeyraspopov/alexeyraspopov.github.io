@@ -1,6 +1,6 @@
 {
   "name": "code-faster",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Personal blog about development",
   "main": "index.html",
   "devDependencies": {
