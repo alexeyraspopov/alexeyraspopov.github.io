@@ -1,0 +1,1 @@
+exclude: ['grunfile.js', 'package.json', 'readme.md']
