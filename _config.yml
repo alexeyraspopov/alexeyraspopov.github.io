@@ -1,4 +1,3 @@
 markdown: rdiscount
 encoding: UTF-8
 permalink: /posts/:title.html
-layout: post
