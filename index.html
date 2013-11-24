@@ -6,11 +6,9 @@ title: Code Faster
 	<h1>Live Fast. Code Faster</h1>
 
 	{% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
+		<article class="post">
+			<h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
 
-	<!-- <article class="post">
-		<h2 id="hello-world"><a href="posts/hello-world.html">Hello world</a></h2>
-		<p>Это первый пост в моем первом блоге.</p>
-		<time>23 Nov 2013</time>
-	</article> -->
+			<time>{{ post.date | date_to_string }}</time>
+		</article>
+	{% endfor %}
