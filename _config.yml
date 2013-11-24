@@ -1,5 +1,4 @@
 exclude: ['grunfile.js', 'package.json', 'readme.md']
 markdown: rdiscount
-# pygments: true
-encoding: 'UTF-8'
-permalink: /posts/:title
+encoding: UTF-8
+permalink: /posts/:title.html
