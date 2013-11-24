@@ -3,5 +3,9 @@ layout: default
 ---
 
 	<article class="post">
+		<h2>{{ title }}</h2>
+
 		{{ content }}
+
+		<time>{{ date | date_to_string }}</time>
 	</article>
