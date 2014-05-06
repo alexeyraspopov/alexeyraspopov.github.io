@@ -1,0 +1,19 @@
+{
+  "name": "string-slugify",
+  "version": "0.4.0",
+  "description": "Convert strings to slug",
+  "license": "MIT",
+  "main": "index.js",
+  "author": "Alexey Raspopov (https://github.com/alexeyraspopov)",
+  "homepage": "https://github.com/alexeyraspopov/string-slugify",
+  "_release": "0.4.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.4.0",
+    "commit": "c57f710d535341cf2f479b7eaa887635e7d5e75c"
+  },
+  "_source": "git://github.com/alexeyraspopov/string-slugify.git",
+  "_target": "~0.4.0",
+  "_originalSource": "string-slugify",
+  "_direct": true
+}
