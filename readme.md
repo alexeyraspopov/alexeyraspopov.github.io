@@ -1,3 +1,3 @@
-# Life fast. Code faster
+# Live Fast. Code Faster
 
 Personal blog about development
