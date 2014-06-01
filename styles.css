@@ -2,10 +2,10 @@ body{
 	width: 40em;
 	max-width: 100%;
 	margin: 0 auto;
-	font: normal 1.1em 'Georgia', serif; /* 1.2em or 1.1em ? */
+	font: normal 1.1em 'Georgia', serif;
 	line-height: 1.5;
 }
-article{
+article, footer{
 	padding: 0 2em;
 	margin-bottom: 2.4em;
 }
@@ -18,7 +18,7 @@ a:hover{
 	color: #4b86c2;
 }
 h1{
-	margin: 1em 0;
+	margin: 1em;
 	color: #333333;
 	text-align: center;
 	font: bold 2.4em 'Trebuchet MS';
@@ -26,7 +26,11 @@ h1{
 h2{
 	font-family: 'Trebuchet MS', Arial, sans-serif;
 }
+article p{
+	text-indent: 2em;
+}
 img{
+	display: block;
 	margin: 0 auto;
 	max-width: 100%;
 }
@@ -45,4 +49,31 @@ nav li{
 }
 nav li:last-child{
 	margin-right: 0;
+}
+.post-illustration{
+	text-indent: 0;
+}
+.post-illustration::after{
+	content: attr(data-alt);
+	display: block;
+	text-align: center;
+	font-style: italic;
+}
+/*hr{
+	border: none;
+}
+hr::after{
+	content: '***';
+	display: block;
+	text-align: center;
+
+}*/
+blockquote{
+	margin: 0;
+	border-left: 4px solid rgba(0, 0, 0, 0.2);
+	padding-left: 1em;
+}
+blockquote p{
+	text-indent: 0;
+	font-style: italic;
 }
