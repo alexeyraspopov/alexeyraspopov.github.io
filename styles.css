@@ -77,3 +77,6 @@ blockquote p{
 	text-indent: 0;
 	font-style: italic;
 }
+pre{
+	overflow: auto;
+}
