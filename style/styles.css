@@ -1,0 +1,34 @@
+body{
+	width: 40em;
+	max-width: 100%;
+	margin: 0 auto;
+	font: normal 1.1em 'Georgia', serif;
+	line-height: 1.5;
+}
+
+article, footer{
+	padding: 0 2em;
+	margin-bottom: 2.4em;
+}
+
+h1{
+	font: bold 2.4em 'Trebuchet MS';
+	text-align: center;
+	color: #333333;
+}
+h2{
+	font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+a{
+	border-bottom: 0.1em solid;
+	color: #4488ff;
+	text-decoration: none;
+}
+a:hover{
+	color: #4b86c2;
+}
+
+article p{
+	text-indent: 2em;
+}
