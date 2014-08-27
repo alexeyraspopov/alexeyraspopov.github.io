@@ -11,6 +11,20 @@ article, footer{
 	margin-bottom: 2.4em;
 }
 
+nav ul{
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+nav li{
+	margin-right: 1em;
+	display: inline;
+}
+nav li:last-child{
+	margin-right: 0;
+}
+
 h1{
 	font: bold 2.4em 'Trebuchet MS';
 	text-align: center;
