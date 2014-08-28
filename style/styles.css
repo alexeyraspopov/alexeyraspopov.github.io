@@ -43,6 +43,23 @@ a:hover{
 	color: #4b86c2;
 }
 
+time{
+	color: #b3b3b1;
+}
+
 article p{
 	text-indent: 2em;
+}
+
+blockquote{
+	margin: 0;
+	padding: 0 2em;
+}
+blockquote p{
+	text-indent: 0;
+	font-style: italic;
+}
+
+pre{
+	overflow: auto;
 }
