@@ -1,3 +1,4 @@
 markdown: kramdown
 highlighter: pygments
-permalink: /:title/
+permalink: /:title.html
+encoding: UTF-8
