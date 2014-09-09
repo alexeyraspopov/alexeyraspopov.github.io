@@ -9,6 +9,16 @@ title: Hello world
 		return n < 3 ? n : n * factorial(n - 1);
 	}
 
+Код с определенным языком
+
+```javascript
+function factorial(n){
+	return n < 3 ? n : n * factorial(n - 1);
+}
+```
+
+### Заголовок третьего уровня
+
 А это `inline-code`.
 
  * Twitter
