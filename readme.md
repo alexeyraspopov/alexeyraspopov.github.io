@@ -1,4 +1,4 @@
-# Life Fast. Code Faster
+# Live Fast. Code Faster
 
 Personal blog about development, Zen and something else.
 
