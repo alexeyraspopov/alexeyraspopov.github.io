@@ -1,4 +1,0 @@
-markdown: kramdown
-highlighter: pygments
-permalink: /:title.html
-encoding: UTF-8
