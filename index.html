@@ -4,8 +4,40 @@
 	<title>Alexey Raspopov</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif:400,400i,700,700i&subset=cyrillic">
-	<link rel="stylesheet" href="https://unpkg.com/awsm.css/dist/awsm.min.css">
+	<style>
+		html {
+			height: 100%;
+			font-family: PT Serif, Georgia, serif;
+			font-size: 24px;
+			font-size: calc(16px + (32 - 16) * (100vw - 400px) / (1980 - 400));
+			line-height: 1.5;
+		}
+
+		body {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+		}
+
+		article {
+			padding: 1rem;
+			max-width: 30rem;
+		}
+
+		a:link,
+		a:visited {
+			color: #0366d6;
+			text-decoration: none;
+			border-bottom: .05em solid;
+			transition: color .4s linear;
+		}
+		a:hover,
+		a:active {
+			color: #0078ff;
+		}
+	</style>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Serif:400,400i,700,700i&subset=cyrillic">
 </head>
 <body>
 	<article>
